@@ -80,7 +80,7 @@ nav > h3 {
 }
 /* *****************************main**************************** */
 .sponssor {
-  background-color: #9b7ebd;
+  /* background-color: #9b7ebd; */
   border-top: 1px solid #9d9e9d;
   border-bottom: 1px solid #9d9e9d;
   margin: 100px 150px;
@@ -98,8 +98,7 @@ nav > h3 {
 
 @media screen and (max-width: 576px) {
   /* common style */
-  .head-part {
-  }
+
   .primary-btn {
     margin-left: 30%;
     margin-right: 30%;
@@ -155,8 +154,10 @@ nav > h3 {
     margin: 0;
     width: 100%;
     margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    border: none;
+    row-gap: 20px;
   }
 }
